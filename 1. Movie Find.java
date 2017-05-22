@@ -1,4 +1,6 @@
 // find the k movies, that is near for the input movie.
+//第一题是movie, 题目大意是， 给定一个movie类，里边有成员变量 movieId(int), MovieName(string), Ratings(int), similarMovies(List<Movie>).
+//给定参数是某个movie, 要求找出与它相关联的movie中rating 排列最高的top K个movie.
 //解题思路：因为是top-k问题，所以一定用到priority queue; 因为是求top k 最大值，则需要minQueue。 
 //用BFS方法，剥洋葱，直到整个图被遍历一遍（queue为空）；因为是无向图，所以避免重复，需要用个hashset来判断uniqueness.
 import java.util.ArrayList;
