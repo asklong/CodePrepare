@@ -1,5 +1,0 @@
-//bonus：亚麻卖书，每本书都有与其关联性很强的书，给一个list<string,string> 代表书和与其关联的书，输出互相关联的最大集合。
-//例如：三国演义 水浒传, 水浒传 红楼梦, 哈利波特 时间简史
-//输出：
-//三国演义，水浒传，红楼梦
-//这题楼主的解法是和在undirect graph 找 largest connected components的思路是一样的。
